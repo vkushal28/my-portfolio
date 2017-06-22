@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+
+body{
+	background:url("img/bg.jpg") no-repeat ;
+	background-size: cover;
+}
+
+
+#mainHeading{                  /**********hi! I am Kushal Verma***********/
+	color:#174BA0;
+	text-align: center;
+	font-family: 'Patrick Hand SC', cursive; 
+	font-size: 80px;
+	text-shadow: 3px 3px black ;
+}
+
+.icon {                        /*************all icon***********/
+	width: 2%;	
+	position: right;
+	vertical-align: middle;
+}
+.lang {                        /***********language icons**********/
+	vertical-align: middle;
+	width:80px;
+	height:80px;
+}
+section{                          /********section divisions********/
+	position: relative;
+	background-color: none;
+	opacity: 0.6;
+	width:100%; 
+	height:140px;
+}
+
+#line1, #line2, #line3, #line4{    /**********about me, my skills, my interests, contact me*********/
+	font-size: 40px;
+	color: black;	
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: 30px; 
+	border: 1px solid black;
+
+}
+.details p:hover{              /*******on hovering 'contact me'*******/
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.details > p{                 /******contact me details*******/
+	text-align: center;
+}
+
+section > div {
+	display: none;
+	text-align: center;
+	color:#6A3206;
+	font-size: 20px;
+}
+section:hover >div {
+	display: block;
+}
