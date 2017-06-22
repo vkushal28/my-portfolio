@@ -58,7 +58,7 @@ section > div {                 /*************content of section division*******
 	display: none;
 	text-align: center;
 	color:#067719;
-	font-size: 18px;
+	font-size: 16px;
 	font-family:'Noto Serif', serif;
 }
 section:hover >div {
